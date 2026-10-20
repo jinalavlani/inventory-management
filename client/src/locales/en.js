@@ -6,6 +6,7 @@ export default {
     orders: 'Orders',
     finance: 'Finance',
     demandForecast: 'Demand Forecast',
+    restocking: 'Restocking',
     companyName: 'Catalyst Components',
     subtitle: 'Inventory Management System'
   },
@@ -112,6 +113,20 @@ export default {
     onTimeDelivery: 'On-Time Delivery',
     itemsCount: '{count} items',
     quantity: 'Qty',
+    submitted: {
+      title: 'Submitted Orders',
+      description: 'Restocking orders placed from the Restocking tab',
+      empty: 'No restocking orders submitted yet',
+      orderNumber: 'Order Number',
+      submittedAt: 'Submitted',
+      items: 'Items',
+      totalCost: 'Total Cost',
+      leadTime: 'Lead Time',
+      expectedDelivery: 'Expected Delivery',
+      status: 'Status',
+      statusSubmitted: 'Submitted',
+      loadFailed: 'Failed to load submitted orders'
+    },
     table: {
       orderNumber: 'Order Number',
       orderId: 'Order ID',
@@ -126,6 +141,37 @@ export default {
       status: 'Status',
       expectedDelivery: 'Expected Delivery',
       actualDelivery: 'Actual Delivery'
+    }
+  },
+
+  // Restocking
+  restocking: {
+    title: 'Restocking',
+    description: 'Set a budget to get restock recommendations from the demand forecast',
+    budget: 'Available Budget',
+    budgetHint: 'Up to {max} covers all forecasted demand',
+    recommendedItems: 'Recommended Items',
+    noRecommendations: 'Increase the budget to see restock recommendations',
+    orderTotal: 'Order Total',
+    remainingBudget: 'Remaining Budget',
+    itemsSelected: 'Items',
+    maxLeadTime: 'Delivery Lead Time',
+    days: '{count} days',
+    placeOrder: 'Place Order',
+    placingOrder: 'Placing order...',
+    orderPlaced: 'Order {number} placed. Expected delivery {date}.',
+    viewOrders: 'View in Orders',
+    orderFailed: 'Failed to place order',
+    loadFailed: 'Failed to load recommendations',
+    table: {
+      sku: 'SKU',
+      item: 'Item',
+      trend: 'Trend',
+      forecastedDemand: 'Forecasted Demand',
+      quantity: 'Quantity',
+      unitCost: 'Unit Cost',
+      lineCost: 'Line Cost',
+      leadTime: 'Lead Time'
     }
   },
 
